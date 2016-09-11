@@ -1,0 +1,723 @@
+*{
+  margin:0;
+  padding: 0;
+}
+/****navbar start*****/
+.new-nav
+{
+  background-color: #87d37c;
+}
+.navbar-brand
+{
+    text-indent: -9999px;
+    width: 229px;
+    height:60px; 
+    background: url(img/logo.png);
+}
+.navbar-default {
+    background-color: transparent;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 20px 0;
+    margin: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #87d37c;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:focus
+{
+    color: #fff;
+}
+.navbar-toggle
+{
+    margin-top: 20px;
+}
+.banner
+{
+    background: url(img/cover.jpg) no-repeat 40% top;
+  
+}
+.item
+{
+    padding: 120px 0;
+}
+.banner .carousel-inner h2
+{
+    color: #fff;
+    text-transform: uppercase;
+     border: 2px solid #fff;
+     padding: 30px;
+     font-size: 80px;
+     max-width: 600px;
+     margin: 0 auto;
+}
+.banner .carousel-inner span
+{
+    color: #87d37c;
+}
+.banner .carousel-inner h3
+{
+    color: #fff;
+    font-size: 38px;
+    text-transform: uppercase;
+
+}
+.banner .carousel-inner h4
+{
+ color: #fff;
+ font-size: 30px;
+ text-transform: uppercase;
+}
+.carousel-indicators li {
+    background: #fff;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    background-color: #87d37c;
+    border: 1px solid #87d37c;
+}
+
+/****navbar start*****/
+
+/*******about start********/
+.about{
+    padding: 100px 0;
+    color: #303030;
+}
+.about .about-top{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.about .about-top h2
+{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+.about .about-top p
+{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.about .about-icon
+{
+  margin-bottom:30px;
+}
+.about .about-content h2
+{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+}
+.about .about-content p
+{
+   font-size: 16px;
+}
+.about .about-content i{
+ font-size: 30px;
+}
+.about-content .about-icon:hover i,
+.about-content .about-icon:hover h2
+{
+    color:  #87d37c;
+}
+/*******about end**********/
+
+
+/*******service start**********/
+.service
+{
+    padding: 100px 0;
+    color: #303030;
+    background: #e1e1e1; 
+}
+.service .service-top h2
+{
+ text-transform: uppercase;
+ font-size: 36px;
+ font-weight: bold;
+}
+.service .service-top p
+{
+   font-size: 16px;
+   max-width: 700px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+.service .service-content img
+{
+    width: 100%;
+    height: 150px;
+}
+.service-icon
+{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+}
+ .service-overlay
+{
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: 0.5s;
+}
+.service-icon:hover .service-overlay
+{
+    top: 0;
+}
+.service-link
+{
+    position: absolute;
+    left: 40%;
+    bottom: -100%;
+    transition: 0.5s;
+}
+.service-link i
+{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    font-size: 12px;
+    line-height: 30px;
+}
+.service-link i:hover
+{
+    background: #87d37c;
+}
+.service-icon:hover .service-link 
+{
+    bottom: 40%;
+}
+
+/*******service end**********/
+
+/********pricint start************/
+.pricing
+{
+    padding: 100px 0;
+    color: #303030;
+}
+.pricing .prcing-top h2
+{
+ text-transform: uppercase;
+ font-size: 36px;
+ font-weight: bold;
+}
+.pricing .prcing-top p
+{
+   font-size: 16px;
+   max-width: 700px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+
+.pricing .pricing-content .pricing-table
+{
+    background: #39393a;
+    height: auto;
+    color: #fff;
+   padding: 20px;
+    border-radius: 5px;
+    transition:0.2s;
+    margin-bottom: 30px;
+}
+.pricing-table .pricing-table-top 
+{
+    height: 130px;
+    width: 130px;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 15px;
+} 
+.pricing-table .pricing-table-top p
+{
+  margin-top: 20px;
+}
+.pricing-table .pricing-table-top em
+{
+    font-size: 25px;
+}
+.pricing-table .pricing-table-top sup
+{
+    font-size: 20px;
+    top: -3px;
+    left: -5px
+}
+.pricing-table .pricing-table-top span
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.pricing-table ul
+{
+ margin: 15px;   
+}
+.pricing-table ul li
+{
+    border-bottom: 1px solid #fff;
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+.pricing-table .btn
+{
+    background: #fff;
+    color: #39393a;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0;
+    transition:0.2s;
+
+}
+.pricing .pricing-content .pricing-table:hover
+{
+    background: #87d37c; 
+    color:#fff;
+}
+.pricing .pricing-content .pricing-table:hover .btn
+{
+    background: #fff;
+    color: #87d37c;
+}
+.pricing .pricing-content .pricing-table:hover .pricing-table-top
+{
+   background: #fff;
+   color: #87d37c;
+} 
+/************pricing end********/
+
+
+
+/********contact start************/
+.contact
+{
+    padding: 100px 0;
+    color: #303030;
+}
+.contact .contact-top h2
+{
+ text-transform: uppercase;
+ font-size: 36px;
+ font-weight: bold;
+}
+.contact .contact-top p
+{
+   font-size: 16px;
+   max-width: 700px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+.contact .contact-content h3
+{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact .contact-content i
+{
+    font-size: 50px;
+}
+.contact .contact-content p
+{
+ padding: 5px;
+ font-size: 12px;
+}
+.contact-icon:hover i,
+.contact-icon:hover h3
+{
+    color: #87d37c;
+}
+
+
+
+/*******contact end**********/
+
+
+/***********portfolio start**************/
+.portfolio
+{
+    padding: 100px 0;
+    color: #303030;
+}
+.portfolio .portfolio-top h2
+{
+ text-transform: uppercase;
+ font-size: 36px;
+ font-weight: bold;
+}
+.portfolio .portfolio-top p
+{
+   font-size: 16px;
+   max-width: 700px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+
+
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #000;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+
+}
+
+.button:hover 
+{
+  background-color: #87d37c;
+  color: #fff;
+}
+.button:active,
+.button .is-checked
+{
+  background-color: #87d37c;
+  color: #fff;
+}
+.button .is-checked
+{
+  color: #fff;
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 40px;
+}
+
+.button-group .button {
+  border-radius: 0;
+  margin-right: 15px ; 
+}
+
+/* ---- isotope ---- */
+
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width:33%;
+  height: 250px;
+  border: 15px solid #fff;
+  overflow: hidden;
+}
+.element-item img
+{
+ width: 100%;
+ height: 100%;
+}
+
+.element-item .portfolio-overlay
+{
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  transition:0.5s;
+}
+.element-item:hover .portfolio-overlay
+{
+  top: 0;
+}
+.element-item .portfolio-overlay p
+{
+  margin-top: 30%;
+  color: #87d37c;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+/**********portfolio end*************/
+
+
+
+
+
+/**********counterup start********/
+.counterup
+{
+  background: url(img/cunntup.jpg) repeat-x;
+  background-position: center center; 
+
+}
+.counterup .counterup-main
+{
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.counterup-overlay
+{
+  background-color: rgba(0,0,0,0.3);
+}
+.counterup .counterup-content
+{
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  border: 1px solid #5f5a58;
+  color: #fff;
+  font-size: 30px;
+  background-color: rgba(0,0,0,0.7);
+  margin-bottom: 30px;
+}
+.counterup .counterup-content p
+{
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/**********counterup end********/
+
+
+/************contact-form start*************/
+.contact-form
+{
+    padding: 80px 0px;
+    background: #f5f5f5;
+}
+
+.form-control {
+     font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.textarea .btn
+{
+    margin-top: 16px;
+    border-radius: 0;
+    background: #87d37c;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 30px;
+
+}
+.textarea textarea
+{
+    height: 80px;
+}
+.btn-default
+{
+    border: #87d37c;
+}
+
+/************contact-form end*************/
+
+/***google map start**/
+    #map {
+      width: 100%;
+      height: 400px;
+    }
+/******google map end*******/
+
+
+
+/**********portfolio start*************/
+
+.scroll-top {
+    background: #87d37c;
+    height: 50px;
+    width: 80px;
+    font-size: 40px;
+    color: #fff;
+    position: fixed;
+    right: 0px;
+    bottom: 70px;
+    cursor: pointer;
+    transtion: top 0.1s linear 0s;
+    display: none;
+}
+.scroll-top i
+{
+  padding: 10px;
+}
+
+/**********counterup end********/
+
+
+
+/******footer start****/
+.footer
+{
+    background: #000;
+    padding: 20px 0;
+    color: #fff;
+}
+.footer .footer-icon
+{
+    font-size: 20px;
+    margin:0 10px;
+}
+.footer-icon i:hover
+{
+    color: #87d37c;
+}
+/*******footer end*******/
+
+
+/*responsive part*/
+@media(max-width: 769px){
+
+    .item
+    {
+        padding: 22px;
+    }
+
+    .banner .carousel-inner h2 
+    {
+      font-size: 60px;
+    }
+    .banner .carousel-inner h3 
+    {
+      font-size: 34px;
+    }
+
+    .service,
+    .pricing,
+    .about
+    {
+        padding: 20px;
+    }
+    .element-item {
+        width: 50%;
+    }
+     .pricing-table .pricing-table-top {
+      font-size: 15px;
+     }
+}
+@media(max-width: 640px){ 
+      .pricing .pricing-table
+    {
+      max-width: 292px;
+      margin: 0 auto;
+    }
+   
+    }
+
+
+@media(max-width: 500px){        
+    .item
+    {
+        padding: 10px;
+    }
+        .banner .carousel-inner h2 
+    {
+      font-size: 40px;
+    }
+    .banner .carousel-inner h3 
+    {
+      font-size: 20px;
+    }
+    .service,
+    .pricing,
+    .about
+    {
+        padding: 20px;
+    }
+    .pricing .pricing-table
+    {
+      max-width: 292px;
+      margin: 0 auto;
+    }
+    .counterup .counterup-content span
+    {
+      font-size: 20px;
+    }
+    .counterup .counterup-content p
+    {
+      font-size: 10px;
+    }
+       .element-item {
+        width: 100%;
+    }
+
+}
+@media(max-width: 500px){
+     .pricing .pricing-table
+    {
+      max-width: 290px;
+      margin: 0 auto;
+    }
+    .pricing-table .pricing-table-top 
+{
+    height: 80px;
+    width: 80px;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 15px;
+} 
+
+
+.pricing-table .pricing-table-top em
+{
+    font-size: 18px;
+}
+.pricing-table .pricing-table-top sup
+{
+    font-size: 8px;
+}
+.pricing-table .pricing-table-top span
+{
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.pricing-table .btn
+{
+font-size: 10px;
+
+}
+  
+      }
